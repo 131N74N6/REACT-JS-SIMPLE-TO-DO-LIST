@@ -1,0 +1,15 @@
+.modal-body {
+    background-color: rgb(35, 26, 26);
+    color: skyblue;
+    font-size: 1rem;
+    padding: 1.1rem;
+    width: 300px;
+    height: 210px;
+}
+
+.modal-body button {
+    background-color: rgb(35, 26, 26);
+    color: skyblue;
+    font-size: 1rem;
+    padding: 1.1rem;
+}

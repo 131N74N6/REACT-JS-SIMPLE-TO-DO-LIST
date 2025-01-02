@@ -1,16 +1,11 @@
-import React, { Fragment } from 'react';
-import ToDoList from './components/ToDo';
-import DarkMode from './components/darkmode';
-import "./App.css";
+import { Fragment } from 'react';
+import ToDoList from './Pages/ToDoList';
+import "./Styles/App.css";
 
-function App() {
+export default function App() {
     return (
         <Fragment>
-            <DarkMode>
-                <ToDoList/>
-            </DarkMode>
+            <ToDoList/>
         </Fragment>
     )
 }
-
-export default App

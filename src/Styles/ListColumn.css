@@ -1,0 +1,15 @@
+.column-content .title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+}
+
+.column-content .contents {
+    border: 2px dashed yellow;
+    padding: 1rem;
+    width: 334px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

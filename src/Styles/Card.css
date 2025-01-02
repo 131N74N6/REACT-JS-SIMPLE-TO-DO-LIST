@@ -1,0 +1,39 @@
+.card-frame {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2.1px solid orange;
+    width: 300px;
+    background-color: rgb(40, 33, 33);
+    cursor: grab;
+    font-family: Arial;
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.card-frame:active {
+    cursor: grabbing;
+    opacity: 0.95;
+}
+
+.card-frame .keterangan :where(.nama, .level) {
+    font-family: Arial;
+    color: whitesmoke;
+    padding: 0.2rem;
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.card-frame button {
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

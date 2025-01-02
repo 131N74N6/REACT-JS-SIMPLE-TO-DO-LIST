@@ -1,0 +1,15 @@
+.drop-area {
+    transform: translateY(0.5rem);
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: Arial;
+    border: 2px dashed orange;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.drop-area-disabled {
+    opacity: 0;
+}
